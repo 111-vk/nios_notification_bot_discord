@@ -99,7 +99,7 @@ async function test() {
         await saveNotifications([...oldNotifications, ...newEntries]);
         await sendDiscordMessage('New notifications found:\n' + newEntries.map(n => `${n.title} - ${n.link} - ${n.date}`).join('\n') + '\ndate:' + new Date().toLocaleString());
     } else {
-        console.log('No new notifications.');
+        // console.log('No new notifications.');
         await sendDiscordMessage('this is bot testing \nNo new notifications found.\ndate:' + new Date().toLocaleString());
     }
 }
@@ -128,4 +128,4 @@ const port = process.env.PORT || 3000;
 app.get('/', (req, res) => res.send('notification Bot is running ...'));
 app.listen(port, () => console.log(`Server listening on port ${port}`));
 
-schedule.scheduleJob('*/10 * * * * *', test); // Run every 5 minutes
+schedule.scheduleJob('*/10 * * * *', test); // Run every 10 minutes
