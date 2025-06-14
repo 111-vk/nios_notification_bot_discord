@@ -34,13 +34,13 @@ async function getNotifications() {
 
 
 
-        notifications.forEach(notification => {
-            if (notification.title.includes('result')) {
+        // notifications.forEach(notification => {
+        //     if (notification.title.includes('result')) {
 
-                // console.log(notification);
+        //         // console.log(notification);
 
-            }
-        });
+        //     }
+        // });
 
         if (notifications.length === 0) {
             console.log('No notifications found.');
@@ -128,4 +128,5 @@ const port = process.env.PORT || 3000;
 app.get('/', (req, res) => res.send('notification Bot is running ...'));
 app.listen(port, () => console.log(`Server listening on port ${port}`));
 
-schedule.scheduleJob('*/10 * * * *', test); // Run every 10 minutes
+// schedule.scheduleJob('*/10 * * * * *', test); // Run every 10 minutes
+schedule.scheduleJob('0 */3 * * *', test); // Run every 3 hours
