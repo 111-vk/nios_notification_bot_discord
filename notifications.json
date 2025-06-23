@@ -228,5 +228,15 @@
     "title": "Notification regarding provision for the learners to download/upload TMAs online from Student Portal (https://sdmis.nios.ac.in)",
     "link": "https://sdmis.s3.ap-south-1.amazonaws.com/2022/Jan/07/eM8eWMarirxZ8Hv2f0sL.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRB2UWTKWIVV3XG7%2F20250612%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250612T182320Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=9856315b6a7536c93f7b36c10037a5646ea7cc6653d912bfd87a41093e037400",
     "date": "07-01-2022"
+  },
+  {
+    "title": "Notification regarding declaration of Result of Public Exams of Senior Secondary courses (Exams held in April/May 2025)",
+    "link": "https://sdmis.s3.ap-south-1.amazonaws.com/2025/Jun/16/YkSoz4MTo8M8ByD3krIe.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRB2UWTKWIVV3XG7%2F20250617%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250617T125236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=687f29836c6b475b82ff575f40fbd58f2612416c29cfd505800e885d9469fdf1",
+    "date": "16-06-2025"
+  },
+  {
+    "title": "Academic Prospectus: 2025",
+    "link": "https://nios.ac.in/media/documents/prospectus/2025/Academic_Prospectus_2025-26.pdf",
+    "date": "19-06-2025"
   }
 ]
