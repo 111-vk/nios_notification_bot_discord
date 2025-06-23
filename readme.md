@@ -83,7 +83,7 @@ Just follow the setup instructions above and deploy your code as per your hostin
   - Make sure the HTTP server is running and the port is set correctly
 
 ## License
-MIT
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
