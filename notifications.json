@@ -238,5 +238,30 @@
     "title": "Academic Prospectus: 2025",
     "link": "https://nios.ac.in/media/documents/prospectus/2025/Academic_Prospectus_2025-26.pdf",
     "date": "19-06-2025"
+  },
+  {
+    "title": "Notification regarding Fee payment schedule for Oct/Nov 2025 Public Exams of Secondary and Senior Secondary courses (only for the learners registered for April/May 2025 exams)",
+    "link": "https://sdmis.s3.ap-south-1.amazonaws.com/2025/Jul/14/h3cvn8KyQLmCjgmgoyTJ.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRB2UWTKWIVV3XG7%2F20250724%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250724T121201Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=289e767aad874f49f6fec60e26b2fd619b7a63f6fa0f97d302f274b9fa3bce83",
+    "date": "14-07-2025"
+  },
+  {
+    "title": "Notification regarding On-Demand Exams - July - September 2025 (April 2025 Session)",
+    "link": "https://sdmis.s3.ap-south-1.amazonaws.com/2025/Jul/07/1mPQfLc7zWQNjRiARdHE.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRB2UWTKWIVV3XG7%2F20250724%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250724T121201Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=5f1c819f96a64680e82b75ac40308c4766d1a03545af29b46aa1cbd3f5ffa423",
+    "date": "07-07-2025"
+  },
+  {
+    "title": "Notification: Result declaration of Secondary course (Exams held in April/may 2025)",
+    "link": "https://sdmis.s3.ap-south-1.amazonaws.com/2025/Jun/30/04HdZeA9PZOQYJxvSCtO.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRB2UWTKWIVV3XG7%2F20250724%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250724T121201Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=cfb6823112cfdbe38aebe51e47222533cfa36325d1086d9c7238e8752da08b15",
+    "date": "30-06-2025"
+  },
+  {
+    "title": "Notification regarding Exam Centre Registration for Public Exams of Secondary and Senior Secondary courses for Oct/Nov 2025",
+    "link": "https://sdmis.s3.ap-south-1.amazonaws.com/2025/Jun/26/bOQn3srgccaFM5yd5xe2.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRB2UWTKWIVV3XG7%2F20250724%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250724T121201Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=a791528966f9e48eef5089c01ced154376d9a99c869eff3f577e70efa54dc985",
+    "date": "26-06-2025"
+  },
+  {
+    "title": "Academic Prospectus - 2025-26",
+    "link": "https://nios.ac.in/student-information-section/prospectus.aspx",
+    "date": "15-07-2025"
   }
 ]

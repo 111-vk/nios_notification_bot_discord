@@ -85,21 +85,26 @@ async function test() {
         // Log and save new notifications, and send a Discord message
         console.log(`Found ${newEntries.length} new notifications.`);
         await saveNotifications([...oldNotifications, ...newEntries]);
-        await sendDiscordMessage('New notifications found:\n' + newEntries.map(n => `${n.title} - ${n.link} - ${n.date}`).join('\n') + '\ndate:' + new Date().toLocaleString());
+        // Format the Discord message in a nice way
+        let formattedMessage = `New notifications(${newEntries.length}):\n\n`;
+        formattedMessage += newEntries.map((n, i) => `**${i + 1}. ${n.title}**\n🔗 [View Notification](${n.link})\n📅 Date: ${n.date}\n`).join('\n');
+        formattedMessage += `\nChecked at: ${new Date().toLocaleString()}`;
+        await sendDiscordMessage(formattedMessage);
     } else {
         // No new notifications, optionally send a Discord message
-        // console.log('No new notifications.');
+        console.log(`No new notifications found at ${new Date().toLocaleString()}`);
     }
 }
-
 // Send a message to a Discord channel
 // To change the Discord bot token or channel, update your .env file
 async function sendDiscordMessage(message) {
     const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
     try {
         await client.login(process.env.token); // Discord bot token from .env
-        const channel = await client.channels.fetch(process.env.discord_guild_id); // Channel ID from .env
-        await channel.send(message);
+        const channel = await client.channels.fetch(process.env.discord_guild_id);
+        const role_to_mention = "1397916490883272826" // enter you role id which you want to mention which you want to mention with this message (e.g., `<@&123456789012345678>, @everyone`)
+        await channel.send(`<@&${role_to_mention}> \n ${message}`); // Mention the role in the message
+        // await channel.send(message);
         if (process.env.NODE_ENV !== 'production') {
             console.log(`Discord message sent at ${new Date().toLocaleString()}`);
         }
@@ -119,4 +124,4 @@ app.listen(port, () => console.log(`Server listening on port ${port}`));
 
 // Schedule the job to run every 2 hours
 // To change the schedule, update the cron string below
-schedule.scheduleJob('0 */2 * * *', test); // Run every 2 hours
+schedule.scheduleJob('*/1 * * * *', test); // Run every 2 hours
