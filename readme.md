@@ -1,5 +1,7 @@
 # NIOS Notification Discord Bot
 
+> **Note:** Run this bot locally to automatically update the `notifications.json` file with the latest notifications.
+
 This bot monitors the NIOS (National Institute of Open Schooling) notification page and sends new notifications to a specified Discord channel. It is designed to run efficiently on platforms like Render and can be customized for other notification sources or hosted on any platform of your choice (Render, Railway, Heroku, VPS, etc.).
 
 ## Features
